@@ -59,3 +59,13 @@ int main() {
     estudiante1.materias[estudiante1.numMaterias++].calificacion = 8.0;
     snprintf(estudiante1.materias[estudiante1.numMaterias].nombre, sizeof(estudiante1.materias[estudiante1.numMaterias].nombre), "Programación");
     estudiante1.materias[estudiante1.numMaterias++].calificacion = 7.5;
+    // Registrar asistencia
+    estudiante1.registrarAsistencia("2023-01-10", "Matemáticas", "asistió");
+    estudiante1.registrarAsistencia("2023-01-12", "Historia", "falta");
+    estudiante1.registrarAsistencia("2023-01-15", "Programación", "tardanza");
+
+    // Mostrar asistencia
+    estudiante1.mostrarAsistencia();
+
+    return 0;
+}
