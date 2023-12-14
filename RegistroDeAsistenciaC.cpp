@@ -49,3 +49,9 @@ int main() {
     estudiante1.promedio = 8.5;
     estudiante1.numMaterias = 0;
     estudiante1.numAsistencias = 0;
+    // Agregar materias al estudiante
+    snprintf(estudiante1.materias[estudiante1.numMaterias].nombre, sizeof(estudiante1.materias[estudiante1.numMaterias].nombre), "Matemáticas");
+    estudiante1.materias[estudiante1.numMaterias++].calificacion = 9.0;
+    snprintf(estudiante1.materias[estudiante1.numMaterias].nombre, sizeof(estudiante1.materias[estudiante1.numMaterias].nombre), "Historia");
+    estudiante1.materias[estudiante1.numMaterias++].calificacion = 8.0;
+    snprintf(estudiante1.materias[estudiante1.numMater
