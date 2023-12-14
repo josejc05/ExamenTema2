@@ -29,3 +29,18 @@ int registrarAsistencia(struct Estudiante* estudiante, const char* fecha, const 
     // Verificar el formato de la fecha (por ejemplo, debería ser "YYYY-MM-DD")
     if (strlen(fecha) != 10 || fecha[4] != '-' || fecha[7] != '-') {
         printf("Error: Formato de fecha inválido\n");
+        return 1; // Código de error: Formato de fecha inválido
+    }
+
+    // Verificar si la materia está registrada
+    int materiaRegistrada = 0;
+    for (int i = 0; i < estudiante->numMaterias; ++i) {
+        if (strcmp(estudiante->materias[i].nombre, materia) == 0) {
+            materiaRegistrada = 1;
+            break;
+        }
+    }
+    if (!materiaRegistrada) {
+        printf("Error: Materia no registrada\n");
+        return 2; // Código de error: Materia no registrada
+    }
