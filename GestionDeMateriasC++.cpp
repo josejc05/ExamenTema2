@@ -31,3 +31,19 @@ void eliminarMateria(Estudiante& estudiante, const string& nombreMateria) {
         }
     }
 }
+// Función para mostrar las materias del estudiante
+void mostrarMaterias(const Estudiante& estudiante) {
+    cout << "Materias de " << estudiante.nombre << ":" << endl;
+    for (const auto& materia : estudiante.materias) {
+        cout << "Nombre: " << materia.nombre << ", Calificación: " << materia.calificacion << endl;
+    }
+}
+
+int main() {
+    // Crear un objeto de la estructura Estudiante
+    Estudiante estudiante1;
+
+    // Asignar valores a los campos del estudiante
+    estudiante1.nombre = "Juan Perez";
+    estudiante1.edad = 20;
+    estudiante1.promedio = 8.5;
