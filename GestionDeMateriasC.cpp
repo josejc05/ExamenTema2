@@ -46,3 +46,25 @@ void mostrarMaterias(const struct Estudiante* estudiante) {
 int main() {
     // Crear un objeto de la estructura Estudiante
     struct Estudiante estudiante1;
+    // Asignar valores a los campos del estudiante
+    snprintf(estudiante1.nombre, sizeof(estudiante1.nombre), "Juan Perez");
+    estudiante1.edad = 20;
+    estudiante1.promedio = 8.5;
+    estudiante1.numMaterias = 0;
+
+    // Agregar materias al estudiante
+    agregarMateria(&estudiante1, &(struct Materia){"Matemáticas", 9.0});
+    agregarMateria(&estudiante1, &(struct Materia){"Historia", 8.0});
+    agregarMateria(&estudiante1, &(struct Materia){"Programación", 7.5});
+
+    // Mostrar las materias del estudiante
+    mostrarMaterias(&estudiante1);
+
+    // Eliminar una materia del estudiante
+    eliminarMateria(&estudiante1, "Historia");
+
+    // Mostrar las materias actualizadas del estudiante
+    mostrarMaterias(&estudiante1);
+
+    return 0;
+}
