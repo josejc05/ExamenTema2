@@ -35,3 +35,14 @@ void eliminarMateria(struct Estudiante* estudiante, const char* nombreMateria) {
         }
     }
 }
+// Función para mostrar las materias del estudiante
+void mostrarMaterias(const struct Estudiante* estudiante) {
+    printf("Materias de %s:\n", estudiante->nombre);
+    for (int i = 0; i < estudiante->numMaterias; ++i) {
+        printf("Nombre: %s, Calificación: %.2f\n", estudiante->materias[i].nombre, estudiante->materias[i].calificacion);
+    }
+}
+
+int main() {
+    // Crear un objeto de la estructura Estudiante
+    struct Estudiante estudiante1;
