@@ -9,8 +9,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90e9eb05-6bad-4bea-a292-04ca905927ae" name="Changes" comment="commit 2">
-      <change beforePath="$PROJECT_DIR$/EstructuraDelEstudiante.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EstructuraDelEstudianteC++.cpp" afterDir="false" />
+    <list default="true" id="90e9eb05-6bad-4bea-a292-04ca905927ae" name="Changes" comment="commit 4">
+      <change afterPath="$PROJECT_DIR$/GestionDeMateriasC.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +31,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ZWwbEuthdZKC0mIdhAFXW00KLd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +48,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "C++",
+    "git-widget-placeholder": "C",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,7 +56,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="C/C++ File.EstructuraDelEstudianteC.cpp">
+  <component name="RunManager" selected="C/C++ File.GestionDeMateriasC.cpp">
     <configuration name="EstructuraDelEstudianteC++.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ExamenTema2" TARGET_NAME="EstructuraDelEstudianteC++.cpp" CONFIG_NAME="EstructuraDelEstudianteC++.cpp">
       <option name="sourceFile" value="EstructuraDelEstudianteC++.cpp" />
       <method v="2">
@@ -68,9 +69,16 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GestionDeMateriasC.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ExamenTema2" TARGET_NAME="GestionDeMateriasC.cpp" CONFIG_NAME="GestionDeMateriasC.cpp">
+      <option name="sourceFile" value="GestionDeMateriasC.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="C/C++ File.EstructuraDelEstudianteC++.cpp" />
       <item itemvalue="C/C++ File.EstructuraDelEstudianteC.cpp" />
+      <item itemvalue="C/C++ File.GestionDeMateriasC.cpp" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -149,6 +157,7 @@
     <MESSAGE value="commit 3" />
     <MESSAGE value="commit 1" />
     <MESSAGE value="commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
+    <MESSAGE value="commit 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 4" />
   </component>
 </project>

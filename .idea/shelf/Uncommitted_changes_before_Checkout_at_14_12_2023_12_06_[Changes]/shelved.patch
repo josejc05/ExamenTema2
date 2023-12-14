@@ -1,0 +1,104 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"CMakeSettings\">\r\n    <configurations>\r\n      <configuration PROFILE_NAME=\"Debug\" ENABLED=\"true\" CONFIG_NAME=\"Debug\" />\r\n    </configurations>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"90e9eb05-6bad-4bea-a292-04ca905927ae\" name=\"Changes\" comment=\"commit 2\">\r\n      <change beforePath=\"$PROJECT_DIR$/EstructuraDelEstudiante.cpp\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/EstructuraDelEstudianteC++.cpp\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ClangdSettings\">\r\n    <option name=\"formatViaClangd\" value=\"false\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 2\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2ZWwbEuthdZKC0mIdhAFXW00KLd\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"cf.first.check.clang-format\": \"false\",\r\n    \"cidr.known.project.marker\": \"true\",\r\n    \"git-widget-placeholder\": \"C++\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"C/C++ File.EstructuraDelEstudianteC.cpp\">\r\n    <configuration name=\"EstructuraDelEstudianteC++.cpp\" type=\"CppFileRunConfiguration\" factoryName=\"CppFileRunConfiguration\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" EMULATE_TERMINAL=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"ExamenTema2\" TARGET_NAME=\"EstructuraDelEstudianteC++.cpp\" CONFIG_NAME=\"EstructuraDelEstudianteC++.cpp\">\r\n      <option name=\"sourceFile\" value=\"EstructuraDelEstudianteC++.cpp\" />\r\n      <method v=\"2\">\r\n        <option name=\"com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"EstructuraDelEstudianteC.cpp\" type=\"CppFileRunConfiguration\" factoryName=\"CppFileRunConfiguration\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" EMULATE_TERMINAL=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"ExamenTema2\" TARGET_NAME=\"EstructuraDelEstudianteC.cpp\" CONFIG_NAME=\"EstructuraDelEstudianteC.cpp\">\r\n      <option name=\"sourceFile\" value=\"EstructuraDelEstudianteC.cpp\" />\r\n      <method v=\"2\">\r\n        <option name=\"com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"C/C++ File.EstructuraDelEstudianteC++.cpp\" />\r\n      <item itemvalue=\"C/C++ File.EstructuraDelEstudianteC.cpp\" />\r\n    </list>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"90e9eb05-6bad-4bea-a292-04ca905927ae\" name=\"Changes\" comment=\"\" />\r\n      <created>1702551212701</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1702551212701</updated>\r\n      <workItem from=\"1702551213858\" duration=\"391000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"commit 1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702551295375</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702551295375</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"commit 2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702551321039</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702551321039</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"commit 3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702551349434</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702551349434</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"commit 3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702551365279</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702551365279</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"commit 1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702551514716</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702551514716</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"commit 2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702551549659</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702551549659</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"commit 2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1702551562133</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1702551562133</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"commit 3\" />\r\n    <MESSAGE value=\"commit 1\" />\r\n    <MESSAGE value=\"commit 2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"commit 2\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -9,9 +9,7 @@
+     </configurations>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="90e9eb05-6bad-4bea-a292-04ca905927ae" name="Changes" comment="commit 2">
+-      <change beforePath="$PROJECT_DIR$/EstructuraDelEstudiante.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EstructuraDelEstudianteC++.cpp" afterDir="false" />
+-    </list>
++    <list default="true" id="90e9eb05-6bad-4bea-a292-04ca905927ae" name="Changes" comment="commit 2" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -23,7 +21,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="main" />
++        <entry key="$PROJECT_DIR$" value="C++" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -35,6 +33,7 @@
+   "associatedIndex": 2
+ }]]></component>
+   <component name="ProjectId" id="2ZWwbEuthdZKC0mIdhAFXW00KLd" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -47,7 +46,8 @@
+     "WebServerToolWindowFactoryState": "false",
+     "cf.first.check.clang-format": "false",
+     "cidr.known.project.marker": "true",
+-    "git-widget-placeholder": "C++",
++    "git-widget-placeholder": "C",
++    "last_opened_file_path": "C:/Users/Jose/CLionProjects/ExamenTema2",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -81,7 +81,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1702551212701</updated>
+-      <workItem from="1702551213858" duration="391000" />
++      <workItem from="1702551213858" duration="714000" />
+     </task>
+     <task id="LOCAL-00001" summary="commit 1">
+       <option name="closed" value="true" />
+@@ -139,7 +139,39 @@
+       <option name="project" value="LOCAL" />
+       <updated>1702551562133</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="commit">
++      <option name="closed" value="true" />
++      <created>1702551633714</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1702551633714</updated>
++    </task>
++    <task id="LOCAL-00009" summary="commit 1">
++      <option name="closed" value="true" />
++      <created>1702551844382</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1702551844382</updated>
++    </task>
++    <task id="LOCAL-00010" summary="commit 2">
++      <option name="closed" value="true" />
++      <created>1702551869897</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1702551869897</updated>
++    </task>
++    <task id="LOCAL-00011" summary="commit 2">
++      <option name="closed" value="true" />
++      <created>1702551884866</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1702551884866</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -147,6 +179,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="commit 3" />
++    <MESSAGE value="commit" />
+     <MESSAGE value="commit 1" />
+     <MESSAGE value="commit 2" />
+     <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
