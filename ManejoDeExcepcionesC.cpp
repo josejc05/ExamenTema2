@@ -78,3 +78,23 @@ int main() {
     estudiante1.materias[estudiante1.numMaterias++].calificacion = 8.0;
     snprintf(estudiante1.materias[estudiante1.numMaterias].nombre, sizeof(estudiante1.materias[estudiante1.numMaterias].nombre), "Programación");
     estudiante1.materias[estudiante1.numMaterias++].calificacion = 7.5;
+    // Registrar asistencia con manejo de errores
+    int resultadoRegistro = registrarAsistencia(&estudiante1, "2023/01/10", "Matemáticas", "asistió");  // Formato de fecha incorrecto
+    if (resultadoRegistro == 0) {
+        printf("Asistencia registrada con éxito.\n");
+    } else {
+        printf("Error al registrar la asistencia (Código %d).\n", resultadoRegistro);
+    }
+
+    resultadoRegistro = registrarAsistencia(&estudiante1, "2023-01-12", "Biología", "asistió");  // Materia no registrada
+    if (resultadoRegistro == 0) {
+        printf("Asistencia registrada con éxito.\n");
+    } else {
+        printf("Error al registrar la asistencia (Código %d).\n", resultadoRegistro);
+    }
+
+    // Mostrar asistencia
+    mostrarAsistencia(&estudiante1);
+
+    return 0;
+}
