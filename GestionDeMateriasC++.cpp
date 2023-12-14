@@ -17,3 +17,17 @@ struct Estudiante {
     float promedio;
     vector<Materia> materias; // Lista de materias
 };
+// Función para agregar una materia al estudiante
+void agregarMateria(Estudiante& estudiante, const Materia& materia) {
+    estudiante.materias.push_back(materia);
+}
+
+// Función para eliminar una materia del estudiante
+void eliminarMateria(Estudiante& estudiante, const string& nombreMateria) {
+    for (auto it = estudiante.materias.begin(); it != estudiante.materias.end(); ++it) {
+        if (it->nombre == nombreMateria) {
+            estudiante.materias.erase(it);
+            break;
+        }
+    }
+}
