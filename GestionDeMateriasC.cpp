@@ -47,3 +47,19 @@ void mostrarMaterias(const struct Estudiante* estudiante) {
 int main() {
     struct Estudiante estudiante1;
     strncpy(estudiante1.nombre, "Juan Perez", sizeof(estudiante1.nombre));
+    estudiante1.edad = 20;
+    estudiante1.promedio = 8.5;
+    estudiante1.numMaterias = 0;
+
+    agregarMateria(&estudiante1, "Matemáticas", 9.0);
+    agregarMateria(&estudiante1, "Historia", 8.0);
+    agregarMateria(&estudiante1, "Programación", 7.5);
+
+    mostrarMaterias(&estudiante1);
+
+    eliminarMateria(&estudiante1, "Historia");
+
+    mostrarMaterias(&estudiante1);
+
+    return 0;
+}
