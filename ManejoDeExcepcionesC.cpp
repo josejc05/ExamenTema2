@@ -44,3 +44,21 @@ int registrarAsistencia(struct Estudiante* estudiante, const char* fecha, const 
         printf("Error: Materia no registrada\n");
         return 2; // Código de error: Materia no registrada
     }
+    // Registrar la asistencia si no hay errores
+    if (estudiante->numAsistencias < 50) {
+        snprintf(estudiante->asistencias[estudiante->numAsistencias].fecha, sizeof(estudiante->asistencias[estudiante->numAsistencias].fecha), "%s", fecha);
+        snprintf(estudiante->asistencias[estudiante->numAsistencias].materia, sizeof(estudiante->asistencias[estudiante->numAsistencias].materia), "%s", materia);
+        snprintf(estudiante->asistencias[estudiante->numAsistencias].estado, sizeof(estudiante->asistencias[estudiante->numAsistencias].estado), "%s", estado);
+        estudiante->numAsistencias++;
+    }
+
+    return 0; // Éxito
+}
+
+// Función para mostrar la asistencia
+void mostrarAsistencia(const struct Estudiante* estudiante) {
+    printf("Registro de Asistencia para %s:\n", estudiante->nombre);
+    for (int i = 0; i < estudiante->numAsistencias; ++i) {
+        printf("Fecha: %s, Materia: %s, Estado: %s\n", estudiante->asistencias[i].fecha, estudiante->asistencias[i].materia, estudiante->asistencias[i].estado);
+    }
+}
