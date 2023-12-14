@@ -49,3 +49,13 @@ int main() {
     estudiante1.materias.push_back({"Matemáticas", 9.0});
     estudiante1.materias.push_back({"Historia", 8.0});
     estudiante1.materias.push_back({"Programación", 7.5});
+    // Registrar asistencia
+    estudiante1.registrarAsistencia("2023-01-10", "Matemáticas", "asistió");
+    estudiante1.registrarAsistencia("2023-01-12", "Historia", "falta");
+    estudiante1.registrarAsistencia("2023-01-15", "Programación", "tardanza");
+
+    // Mostrar asistencia
+    estudiante1.mostrarAsistencia();
+
+    return 0;
+}
