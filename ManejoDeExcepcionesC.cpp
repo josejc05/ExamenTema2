@@ -62,3 +62,19 @@ void mostrarAsistencia(const struct Estudiante* estudiante) {
         printf("Fecha: %s, Materia: %s, Estado: %s\n", estudiante->asistencias[i].fecha, estudiante->asistencias[i].materia, estudiante->asistencias[i].estado);
     }
 }
+int main() {
+    // Crear un objeto de la estructura Estudiante
+    struct Estudiante estudiante1;
+    snprintf(estudiante1.nombre, sizeof(estudiante1.nombre), "Juan Perez");
+    estudiante1.edad = 20;
+    estudiante1.promedio = 8.5;
+    estudiante1.numMaterias = 0;
+    estudiante1.numAsistencias = 0;
+
+    // Agregar materias al estudiante
+    snprintf(estudiante1.materias[estudiante1.numMaterias].nombre, sizeof(estudiante1.materias[estudiante1.numMaterias].nombre), "Matemáticas");
+    estudiante1.materias[estudiante1.numMaterias++].calificacion = 9.0;
+    snprintf(estudiante1.materias[estudiante1.numMaterias].nombre, sizeof(estudiante1.materias[estudiante1.numMaterias].nombre), "Historia");
+    estudiante1.materias[estudiante1.numMaterias++].calificacion = 8.0;
+    snprintf(estudiante1.materias[estudiante1.numMaterias].nombre, sizeof(estudiante1.materias[estudiante1.numMaterias].nombre), "Programación");
+    estudiante1.materias[estudiante1.numMaterias++].calificacion = 7.5;
