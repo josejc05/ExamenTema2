@@ -69,3 +69,24 @@ struct Estudiante {
         }
     }
 };
+int main() {
+    // Crear un objeto de la estructura Estudiante
+    Estudiante estudiante1;
+    estudiante1.nombre = "Juan Perez";
+    estudiante1.edad = 20;
+    estudiante1.promedio = 8.5;
+
+    // Agregar materias al estudiante
+    estudiante1.materias.push_back({"Matemáticas", 9.0});
+    estudiante1.materias.push_back({"Historia", 8.0});
+    estudiante1.materias.push_back({"Programación", 7.5});
+
+    // Registrar asistencia con errores
+    estudiante1.registrarAsistencia("2023/01/10", "Matemáticas", "asistió");  // Formato de fecha incorrecto
+    estudiante1.registrarAsistencia("2023-01-12", "Biología", "asistió");      // Materia no registrada
+
+    // Mostrar asistencia
+    estudiante1.mostrarAsistencia();
+
+    return 0;
+}
