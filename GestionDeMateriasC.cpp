@@ -52,3 +52,19 @@ int main() {
     estudiante1.edad = 20;
     estudiante1.promedio = 8.5;
     estudiante1.numMaterias = 0;
+    // Agregar materias al estudiante
+    agregarMateria(&estudiante1, &(struct Materia){"Matemáticas", 9.0});
+    agregarMateria(&estudiante1, &(struct Materia){"Historia", 8.0});
+    agregarMateria(&estudiante1, &(struct Materia){"Programación", 7.5});
+
+    // Mostrar las materias del estudiante
+    mostrarMaterias(&estudiante1);
+
+    // Eliminar una materia del estudiante
+    eliminarMateria(&estudiante1, "Historia");
+
+    // Mostrar las materias actualizadas del estudiante
+    mostrarMaterias(&estudiante1);
+
+    return 0;
+}
