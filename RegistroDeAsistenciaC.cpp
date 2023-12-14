@@ -13,6 +13,7 @@ struct Materia {
     char nombre[50];
     float calificacion;
 };
+
 // Definición de la estructura Estudiante
 struct Estudiante {
     char nombre[50];
@@ -32,6 +33,7 @@ struct Estudiante {
             numAsistencias++;
         }
     }
+
     // Función para mostrar la asistencia
     void mostrarAsistencia() const {
         printf("Registro de Asistencia para %s:\n", nombre);
@@ -49,9 +51,11 @@ int main() {
     estudiante1.promedio = 8.5;
     estudiante1.numMaterias = 0;
     estudiante1.numAsistencias = 0;
+
     // Agregar materias al estudiante
     snprintf(estudiante1.materias[estudiante1.numMaterias].nombre, sizeof(estudiante1.materias[estudiante1.numMaterias].nombre), "Matemáticas");
     estudiante1.materias[estudiante1.numMaterias++].calificacion = 9.0;
     snprintf(estudiante1.materias[estudiante1.numMaterias].nombre, sizeof(estudiante1.materias[estudiante1.numMaterias].nombre), "Historia");
     estudiante1.materias[estudiante1.numMaterias++].calificacion = 8.0;
-    snprintf(estudiante1.materias[estudiante1.numMater
+    snprintf(estudiante1.materias[estudiante1.numMaterias].nombre, sizeof(estudiante1.materias[estudiante1.numMaterias].nombre), "Programación");
+    estudiante1.materias[estudiante1.numMaterias++].calificacion = 7.5;
