@@ -53,3 +53,19 @@ struct Estudiante {
             }
             if (!materiaRegistrada)
                 throw MateriaNoRegistrada("Materia no registrada");
+            // Registrar la asistencia si no hay excepciones
+            Asistencia nuevaAsistencia = {fecha, materia, estado};
+            asistencias.push_back(nuevaAsistencia);
+        } catch (const exception& e) {
+            cout << "Error al registrar la asistencia: " << e.what() << endl;
+        }
+    }
+
+    // Función para mostrar la asistencia
+    void mostrarAsistencia() const {
+        cout << "Registro de Asistencia para " << nombre << ":" << endl;
+        for (const auto& asistencia : asistencias) {
+            cout << "Fecha: " << asistencia.fecha << ", Materia: " << asistencia.materia << ", Estado: " << asistencia.estado << endl;
+        }
+    }
+};
