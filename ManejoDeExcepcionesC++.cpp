@@ -36,3 +36,20 @@ struct Estudiante {
     float promedio;
     vector<Materia> materias;
     vector<Asistencia> asistencias;
+    // Función para registrar la asistencia con manejo de excepciones
+    void registrarAsistencia(const string& fecha, const string& materia, const string& estado) {
+        try {
+            // Verificar el formato de la fecha (por ejemplo, debería ser "YYYY-MM-DD")
+            if (fecha.length() != 10 || fecha[4] != '-' || fecha[7] != '-')
+                throw FormatoFechaInvalido("Formato de fecha inválido");
+
+            // Verificar si la materia está registrada
+            bool materiaRegistrada = false;
+            for (const auto& mat : materias) {
+                if (mat.nombre == materia) {
+                    materiaRegistrada = true;
+                    break;
+                }
+            }
+            if (!materiaRegistrada)
+                throw MateriaNoRegistrada("Materia no registrada");
